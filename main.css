@@ -1,0 +1,289 @@
+body {
+  background-image: url("722548-gorgerous-all-black-backgrounds-1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  /* margin: 10px; */
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: white;
+  /* cursor: pointer; */
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.logo::first-letter {
+  font-size: 30px;
+  color: aqua;
+}
+
+* {
+  margin: 10px;
+  padding: 0;
+
+  font-family: "poppins", sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 12px;
+}
+
+ul a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+}
+
+ul a:hover {
+  color: aqua;
+}
+
+h1 {
+  color: white;
+}
+span {
+  display: inline-flex;
+  color: aqua;
+  font-size: larger;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing infinite;
+  animation-duration: 3s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+  border-right: 3px solid aqua;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 58%;
+  }
+}
+
+h2 {
+  color: aqua;
+}
+
+p {
+  color: white;
+}
+
+#Home {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 170px;
+}
+
+.home-content h1 {
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+.home-content h1 span {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.btn-box {
+  width: 350px;
+  height: 100px;
+  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-box a {
+  width: 170px;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  font-weight: 800;
+  box-shadow: 2px 2px 8px;
+}
+
+.btn-box a:hover {
+  color: aqua;
+}
+
+img {
+  border-radius: 100%;
+  color: aqua;
+  box-shadow: 0px 0px 26px 0px;
+}
+
+#image {
+  width: 400px;
+  height: 450px;
+  margin-left: 900px;
+  margin-top: -450px;
+  display: flex;
+}
+
+.h {
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  color: white;
+}
+
+#Project {
+  display: grid;
+  justify-content: space-around;
+}
+
+.card {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 40px;
+  box-shadow: 0px 0px 13px 3px;
+}
+
+.col .card {
+  background-color: white;
+}
+
+.card img {
+  width: 266px;
+  height: 200px;
+}
+
+.card-title {
+  color: black;
+  font-weight: 700;
+  font-size: medium;
+}
+
+p {
+  color: black;
+}
+
+.ph {
+  color: white;
+}
+
+.hr {
+  color: white;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.icon a:hover {
+  color: white;
+}
+
+.icon a {
+  text-decoration: none;
+}
+
+.Ex {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.Exxx {
+  color: white;
+}
+
+.Qu {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.Quuu {
+  color: white;
+}
+
+.copy {
+  color: white;
+  font-size: smaller;
+  font-weight: 600;
+}
+
+#Qualifications {
+  display: grid;
+  justify-content: space-around;
+}
+
+.sk {
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+
+.cont {
+  display: grid;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.Exp {
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  display: grid;
+  justify-content: center;
+}
+
+.card-text4 {
+  text-align: center;
+}
+
+.card-text3 {
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+}
+
+.card-title10 {
+  text-align: center;
+  color: black;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: center;
+}
+
+.mail {
+  color: white;
+}
