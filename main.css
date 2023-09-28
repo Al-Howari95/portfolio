@@ -1,20 +1,21 @@
 body {
-  background-image: url("722548-gorgerous-all-black-backgrounds-1920x1080.jpg");
+  background-image: url("fd/722548-gorgerous-all-black-backgrounds-1920x1080.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
 
-header {
+
+ header {
   display: flex;
   justify-content: space-around;
 }
 .logo {
-  /* margin: 10px; */
+   margin: 10px; 
   letter-spacing: 2px;
   font-weight: 800;
   color: white;
-  /* cursor: pointer; */
+  cursor: pointer; 
   text-transform: uppercase;
   font-size: 20px;
 }
@@ -44,7 +45,7 @@ ul a {
 
 ul a:hover {
   color: aqua;
-}
+} 
 
 h1 {
   color: white;
@@ -73,7 +74,9 @@ span {
 }
 
 h2 {
-  color: aqua;
+  color: white;
+  font-weight: 800;
+  
 }
 
 p {
@@ -180,6 +183,7 @@ img {
   color: black;
   font-weight: 700;
   font-size: medium;
+  text-align: center;
 }
 
 p {
@@ -197,8 +201,11 @@ p {
 .icon {
   display: flex;
   justify-content: center;
+  margin-top: -244px;
+  margin-left: -70px;
   font-size: 30px;
 }
+
 .icon a:hover {
   color: white;
 }
@@ -264,9 +271,9 @@ p {
   justify-content: center;
 }
 
-.card-text4 {
+/* .card-text4 {
   text-align: center;
-}
+} */
 
 .card-text3 {
   text-align: center;
@@ -279,11 +286,218 @@ p {
   color: black;
 }
 
-.footer1 {
-  display: flex;
-  justify-content: center;
-}
+/* .footer1 {
+ 
+} */
 
 .mail {
   color: white;
 }
+
+
+.copy {
+  display: flex;
+  justify-content: center;
+}
+
+ .contact-me {
+      display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 125px;
+} 
+
+
+ .Me {
+    display: flex;
+    justify-content: end;
+    margin-right: 314px;
+    color: white;
+   
+}
+
+.Ha {
+  margin-top: -474px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+input {
+ background-color: #262626;
+border: 0;
+height: 30px;
+width: 300px;
+color: white;
+border-radius: 2px;
+height: 50px;
+
+}
+
+textarea {
+background-color: #262626;
+border: 0;
+width: 300px;
+color: white;
+border-radius: 2px;
+
+}
+
+.sa {
+  width: 90px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  border: 2px solid aqua;
+  border-radius: 14px;
+  font-weight: 700;
+  box-shadow: 2px 2px 8px;
+}
+
+
+ 
+.placeholder {
+  padding: 10px;
+  font-size: 14px;
+
+}
+
+.kl {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.kl .fa  {
+  font-size: 20px;
+  margin-left: -50px;
+
+}
+
+
+.fa {
+  display: flex;
+   margin-top: 3px;
+  
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  margin-top: 240px;
+}
+
+
+@media only screen and  (max-width: 480px){
+
+  #image {  width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 90px;
+    display: flex;
+  
+   }
+
+  #Home {
+    margin-top: 10px;
+    margin-left: 20px;
+
+  }
+
+  .home-content h1 {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+  }
+   .home-content h1 span {
+    font-weight: 700;
+    font-size: 26px;
+  } 
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+.Ha {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.icon {
+  margin-top: 50px;
+}
+.Me {
+margin-left: 170px;
+
+}
+
+.contact-me {
+  margin-left: 400px;
+}
+}
+
+/* @media only screen and  (max-width: 480px)  */
+
+
+
+
+
+ @media only screen and (min-width: 481px) and (max-width: 768px) {
+  #image {  width: 100px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 60px;
+    display: flex;
+  
+   }
+   ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+.Ha {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.icon {
+  margin-top: 50px;
+}
+.Me {
+margin-left: 170px;
+
+}
+.home-content {
+  margin-left: 20px;
+}
+
+
+}
+
+
+
+
+
+ @media only screen and  (min-width: 769px) and (max-width: 1279px) {
+
+  #image {  width: 300px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -450px;
+    display: flex;
+  
+   }
+
+}
+
+
+
+
+
+
+
+
+/* @media only screen (min-width: 1280px) {
+}     */
