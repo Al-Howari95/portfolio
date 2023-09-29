@@ -50,7 +50,7 @@ ul a:hover {
 h1 {
   color: white;
 }
-span {
+.Sp {
   display: inline-flex;
   color: aqua;
   font-size: larger;
@@ -389,12 +389,57 @@ border-radius: 2px;
   margin-top: 240px;
 }
 
+.navbar-dark {
+  margin-left: 90px;
+  
+  }
+  .navbar-brand {
+    margin-top: 24px;
+  }
+  
+  .navbar-dark .navbar-brand {
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: white; 
+    text-transform: uppercase;
+    font-size: 25px;
+  
+  }
+  
+  .navbar-dark .navbar-brand::first-letter {
+    font-size: 35px;
+    color: aqua;
+  }
+  
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+  }
+  
+  
+  .navbar-expand-lg .navbar-nav {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  .navbar-nav .nav-item {
+    color: white;
+  }
+  
+  .nav-item:hover {
+    color: aqua;
+  }
 
-@media only screen and  (max-width: 480px){
+  .container-fluid {
+
+margin-top: -30px;
+  }
+
+
+ @media only screen and  (max-width: 480px){
 
   #image {  width: 300px;
     height: 300px;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-top: 90px;
     display: flex;
   
@@ -427,16 +472,20 @@ border-radius: 2px;
 }
 .icon {
   margin-top: 50px;
+  
 }
+
 .Me {
 margin-left: 170px;
+
 
 }
 
 .contact-me {
-  margin-left: 400px;
+   margin-left: 400px; 
+  
 }
-}
+} 
 
 /* @media only screen and  (max-width: 480px)  */
 
@@ -444,7 +493,7 @@ margin-left: 170px;
 
 
 
- @media only screen and (min-width: 481px) and (max-width: 768px) {
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
   #image {  width: 100px;
     height: 300px;
     margin-left: 200px;
@@ -478,8 +527,6 @@ margin-left: 170px;
 
 
 
-
-
  @media only screen and  (min-width: 769px) and (max-width: 1279px) {
 
   #image {  width: 300px;
@@ -490,7 +537,7 @@ margin-left: 170px;
   
    }
 
-}
+} 
 
 
 
@@ -501,3 +548,5 @@ margin-left: 170px;
 
 /* @media only screen (min-width: 1280px) {
 }     */
+
+
