@@ -512,7 +512,7 @@ margin-left: 170px;
 }
 
 .contact-me {
-   margin-left: 400px; 
+   margin-left: 350px; 
   
 }
 } 
@@ -569,11 +569,14 @@ margin-left: 170px;
 
 } 
 
+/* 
+@media only screen and (min-width: 350px) and (max-width: 450px) {
 
+  .home-content {
+    margin-left: -20px;
+  }
 
-
-
-
+}  */
 
 
 /* @media only screen (min-width: 1280px) {
